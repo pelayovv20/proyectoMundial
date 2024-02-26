@@ -1,0 +1,56 @@
+
+body{
+    width: 100%;
+}
+
+h1{
+    flex:5;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+header{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+header img{
+    display: flex;
+    height: 100px;
+    padding-top: 20.15px;
+    justify-content: flex-end;
+}
+
+nav{
+    height: 50px;
+    flex: 100%;
+    display: flex;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  
+  }

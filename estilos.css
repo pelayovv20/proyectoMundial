@@ -10,6 +10,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color:lightskyblue; 
+    min-width:450px;
   }
   
   html {
@@ -20,6 +21,7 @@ html, body {
   body {
     width: 100%; 
     margin: 0 auto;
+    
   }
 
   
@@ -128,6 +130,12 @@ height: 100%;
 
 }
 
+article{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: justify;
+}
+
 section{
   display: flex;
   
@@ -198,7 +206,154 @@ text-transform: uppercase;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 100px;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+
+@media (width<=500px){
+
+  .actualidad{
+  
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    
+  }
+
+  article{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+
+
+div{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 20px;
+ align-items: center;
+
+ margin: 20px;
+ background-color: rgb(83, 189, 114);
+ text-shadow: 2px 2px 10px black;
+  
+}
+
+.titulo2{
+  display: flex;
+ flex: 100%;
+ justify-content: center;
+}
+
+
+.pie{
+  display: flex;
+justify-content: center;
+margin: 2%;
+}
+
+.autores{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+  font-size: 1rem;
+}
+
+}
+
+@media (width>1400px){
+
+  header {
+   
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    
+  }
+
+
+  .actualidad{
+  
+    height: 1000px;
+    width: 100%;
+    
+  }
+  h1 {
+    flex: 1;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Akaya Kanadaka", system-ui;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px black;
+    color: blue;
+    
+   }
+   
+
+  
+
+  .logo {
+    display: flex;
+    height: 150px;
+    
+  
+  }
+
+  nav {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: end;
+    flex:100%;
+    
+   
+   
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    
+   
+    
+   
+   
+  }
+  
+  nav li {
+    display: flex;
+    text-align: center;
+    flex: 2;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: "Kode Mono", monospace;
+    
+   
+   
+   
+  }
+  
+  nav a {
+    font-size: 15px;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    
+  }
+
+
+
+  
 }
 
 

@@ -134,6 +134,7 @@ article{
   display: flex;
   flex-flow: row wrap;
   text-align: justify;
+  font-size: 15px;
 }
 
 section{
@@ -351,7 +352,17 @@ margin: 2%;
     
   }
 
+  article{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: justify;
+    font-size: 15px;
+  } 
 
+  .Titulo1{
+    display: flex;
+    flex: 100%;
+  }
 
   
 }

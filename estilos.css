@@ -173,7 +173,7 @@ div{
  align-items: center;
 overflow: auto;
  margin: 20px;
- background-color: rgb(83, 189, 114);
+ background-color: #6287A2;
  text-shadow: 2px 2px 10px black;
  height: 160px;
  width: 160px;
@@ -195,7 +195,7 @@ div:hover{
 footer{
 
   height: 100%;
-  background-color:lightgreen;
+  background-color:#58BD9F;
 }
 
 .pie{
@@ -253,6 +253,7 @@ text-decoration:underline;
     display: flex;
     flex-flow: row wrap;
     text-align: center;
+    justify-content: center;
   }
 
 
@@ -264,7 +265,7 @@ div{
  align-items: center;
 
  margin: 20px;
- background-color: rgb(83, 189, 114);
+ 
  text-shadow: 2px 2px 10px black;
   
 }

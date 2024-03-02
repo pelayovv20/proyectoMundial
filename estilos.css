@@ -9,14 +9,14 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color:lightskyblue; 
+    background-color:#82CAFA;
     min-width: 470px;
     
   }
   
   html {
     font-size: 10px;
-    background-color:lightskyblue; 
+    background-color:#82CAFA;
     height: 100%;
   }
   
@@ -37,7 +37,7 @@ html, body {
   }
 
   main, header {
-    background-color:lightskyblue;
+    background-color:#82CAFA;
     padding: 1%;
   }
 

@@ -240,6 +240,20 @@ text-decoration:underline;
     color: black;
 }
 
+
+.curiosidades{
+  padding: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.balon{
+height: 50px;
+width: 50px;
+
+}
+
 @media (width<=500px){
 
   .actualidad{
